@@ -1,0 +1,16 @@
+{
+  "ASH PLANTAINS": {"si":"අළු කෙසෙල්", "ta":"சாம்பல் வாழைக்காய்", "en":"Ash Plantains", "icon":"plantain"},
+  "BEANS":         {"si":"බෝංචි", "ta":"பீன்ஸ்", "en":"Beans", "icon":"beans"},
+  "BEETROOT":      {"si":"බීට්රූට්", "ta":"பீட்ரூட்", "en":"Beetroot", "icon":"beetroot"},
+  "BITTER GOURD":  {"si":"කරවිල", "ta":"பாகற்காய்", "en":"Bitter Gourd", "icon":"gourd"},
+  "BRINJALS":      {"si":"වම්බටු", "ta":"கத்தரிக்காய்", "en":"Brinjals", "icon":"brinjal"},
+  "CABBAGE":       {"si":"ගෝවා", "ta":"கோவா", "en":"Cabbage", "icon":"cabbage"},
+  "CAPSICUM":      {"si":"මාළු මිරිස්", "ta":"குடைமிளகாய்", "en":"Capsicum", "icon":"capsicum"},
+  "CARROT":        {"si":"කැරට්", "ta":"கேரட்", "en":"Carrot", "icon":"carrot"},
+  "CUCUMBER":      {"si":"පිපිඤ්ඤා", "ta":"வெள்ளரிக்காய்", "en":"Cucumber", "icon":"cucumber"},
+  "DRUMSTIC":      {"si":"මුරුංගා", "ta":"முருங்கைக்காய்", "en":"Drumstick", "icon":"drumstick"},
+  "LEEKS":         {"si":"ලීක්ස්", "ta":"லீக்ஸ்", "en":"Leeks", "icon":"leeks"},
+  "LUFFA":         {"si":"වැටකොළු", "ta":"பீர்க்கங்காய்", "en":"Luffa", "icon":"gourd"},
+  "RADDISH":       {"si":"රාබු", "ta":"முள்ளங்கி", "en":"Radish", "icon":"radish"},
+  "TOMATOES":      {"si":"තක්කාලි", "ta":"தக்காளி", "en":"Tomatoes", "icon":"tomato"}
+}

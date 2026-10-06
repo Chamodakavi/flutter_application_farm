@@ -1,0 +1,1419 @@
+{
+  "@@locale": "en",
+  "authWelcomeBack": "Welcome back to FarmFriend",
+  "authSignIn": "Sign in",
+  "authSignOut": "Sign out",
+  "authEmail": "Email",
+  "authPassword": "Password",
+  "authForgot": "Forgot password?",
+  "authGoogle": "Continue with Google",
+  "authPhone": "Continue with phone",
+  "authNewHere": "New here?",
+  "authCreateAccount": "Create account",
+  "authCreateTitle": "Create your account",
+  "authFullName": "Full name",
+  "authConfirmPassword": "Confirm password",
+  "authAgreeTerms": "I agree to the Terms & Privacy Policy",
+  "authAgreeRequired": "Please accept the terms to continue.",
+  "authHaveAccount": "Already have an account?",
+  "authSignInInstead": "Sign in instead",
+  "authCheckEmailTitle": "Check your email",
+  "authCheckEmailBody": "We sent a confirmation link to {email}. Open it to activate your account, then sign in.",
+  "@authCheckEmailBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authOpenEmailApp": "Open email app",
+  "authBackToLogin": "Back to login",
+  "authForgotTitle": "Reset your password",
+  "authForgotBody": "Enter your email and we will send you a link to choose a new password.",
+  "authSendResetLink": "Send reset link",
+  "authResetSent": "If an account exists for {email}, a reset link is on its way. Open it on this phone.",
+  "@authResetSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "authResetTitle": "Choose a new password",
+  "authResetNeedsLink": "Open the reset link from your email on this phone to choose a new password.",
+  "authNewPassword": "New password",
+  "authSavePassword": "Save password",
+  "authPasswordUpdated": "Password updated. Sign in with your new password.",
+  "authPhoneTitle": "Sign in with your phone",
+  "authPhoneBody": "We will send a 6-digit code by SMS to this number.",
+  "authPhoneNumber": "Mobile number",
+  "authSendCode": "Send code",
+  "authOtpTitle": "Enter the code",
+  "authOtpBody": "We sent a 6-digit code to {phone}.",
+  "@authOtpBody": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "authVerify": "Verify",
+  "authResendIn": "Resend code in {seconds} s",
+  "@authResendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authResend": "Resend code",
+  "authCodeSent": "A new code was sent.",
+  "authChangeNumber": "Change number",
+  "authResendLimit": "Too many codes requested. Try again in a few minutes.",
+  "splashGettingReady": "Getting things ready…",
+  "splashProfileError": "We could not load your profile.",
+  "onboarding1Title": "Plan before you plant",
+  "onboarding1Body": "See how much of each crop the country needs and how much is already registered, before you decide what to grow.",
+  "onboarding2Title": "Fair prices, less waste",
+  "onboarding2Body": "Check forecast prices and the best month to harvest, so your crop sells at a fair price.",
+  "onboarding3Title": "Market, community & AgriBot",
+  "onboarding3Body": "Buy seeds and tools, share with other farmers, and ask AgriBot anything in your own language.",
+  "onboardingGetStarted": "Get started",
+  "profileCompleteTitle": "Complete your profile",
+  "profileCompleteSubtitle": "We need a few details before you start.",
+  "profileName": "Name",
+  "profileSurname": "Surname",
+  "profileEmail": "Email",
+  "profileEmailReadOnly": "Email cannot be changed here.",
+  "profileTelephone": "Telephone",
+  "profileType": "Type",
+  "profileSelectType": "Select type",
+  "profileDistrict": "District",
+  "profileSelectDistrict": "Select district",
+  "profileSaveContinue": "Save & continue",
+  "profileTypeFarmer": "Farmer",
+  "profileTypeBuyer": "Buyer",
+  "profileTypeOfficer": "Agricultural Officer",
+  "profileAddPhoto": "Add photo",
+  "profileChangePhoto": "Change photo",
+  "profilePhotoGallery": "Choose from gallery",
+  "profilePhotoCamera": "Take a photo",
+  "maintenanceBody": "FarmFriend is being updated. Please try again in a little while.",
+  "cartTitle": "Shopping Cart",
+  "cartSubtitle": "Review your cart and track your submitted orders.",
+  "cartCashOnDelivery": "Cash on Delivery",
+  "cartAdded": "Added to cart",
+  "cartViewCart": "View cart",
+  "cartEmptyTitle": "Your Cart is Empty",
+  "cartEmptyMessage": "Your cart is clear. You can browse products or check your order history below.",
+  "cartStartShopping": "Start Shopping",
+  "cartUnitPrice": "{price} each",
+  "@cartUnitPrice": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "cartRemove": "Remove from cart",
+  "cartRemoved": "{name} removed from cart",
+  "@cartRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "cartOnlyLeft": "Only {count} left in stock. Reduce the quantity.",
+  "@cartOnlyLeft": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "cartLineOutOfStock": "This product is out of stock. Remove it to continue.",
+  "cartSummaryTitle": "Order summary",
+  "cartSubtotal": "Subtotal",
+  "cartShipping": "Shipping",
+  "cartTotal": "Total",
+  "cartPayment": "Payment",
+  "cartEstimateNote": "Estimated amounts. The final total is confirmed when you place the order.",
+  "cartFixStock": "Some items are more than the available stock. Fix them to continue.",
+  "cartCheckout": "Proceed to checkout",
+  "checkoutTitle": "Checkout",
+  "checkoutContactTitle": "Delivery contact",
+  "checkoutName": "Name",
+  "checkoutPhone": "Phone number",
+  "checkoutPhoneHelper": "We will call this number about your delivery.",
+  "checkoutDistrict": "District",
+  "checkoutPaymentTitle": "Payment method",
+  "checkoutCodHint": "Pay in cash when your order is delivered.",
+  "checkoutSummaryTitle": "Order summary",
+  "checkoutLine": "{name} × {qty}",
+  "@checkoutLine": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "qty": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutReviewNote": "After you place the order, an admin reviews it. You can cancel it while it is pending.",
+  "checkoutPlaceOrder": "Place order",
+  "checkoutEmptyCart": "Your cart is empty. Add products before you check out.",
+  "checkoutFailed": "We could not place your order. Please try again.",
+  "checkoutStockTitle": "Not enough stock",
+  "checkoutStockMessage": "Only {available} of \"{name}\" left in stock. Reduce the quantity in your cart and try again.",
+  "@checkoutStockMessage": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "available": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutStockNone": "\"{name}\" is out of stock. Remove it from your cart and try again.",
+  "@checkoutStockNone": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutStockGeneric": "A product in your cart does not have enough stock. Update your cart and try again.",
+  "checkoutUpdateCart": "Update cart",
+  "orderMyOrders": "My Orders",
+  "orderNumber": "Order #{id}",
+  "@orderNumber": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "orderItemsCount": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+  "@orderItemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "orderPlacedOn": "Placed on {date}",
+  "@orderPlacedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "orderTotalLine": "Total: {total}",
+  "@orderTotalLine": {
+    "placeholders": {
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "orderItemsTitle": "Items",
+  "orderItemsUnavailable": "Item details are not available.",
+  "orderItemQty": "Qty: {qty} × {price}",
+  "@orderItemQty": {
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "orderAdminNote": "Note from admin",
+  "orderCancel": "Cancel Order",
+  "orderCancelConfirmTitle": "Cancel this order?",
+  "orderCancelConfirmMessage": "Order #{id} will be cancelled. This cannot be undone.",
+  "@orderCancelConfirmMessage": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "orderCancelConfirmYes": "Yes, cancel order",
+  "orderCancelConfirmNo": "Keep order",
+  "orderCancelled": "Your order was cancelled.",
+  "orderCancelNotCancellable": "This order can no longer be cancelled because it has already been processed.",
+  "orderWaitingReview": "Your order is waiting for admin review.",
+  "orderStatusApprovedMessage": "Your order was approved and is being prepared.",
+  "orderStatusShippedMessage": "Your order is on its way to you.",
+  "orderStatusDeliveredMessage": "Your order was delivered. Thank you!",
+  "orderStatusCancelledMessage": "This order was cancelled.",
+  "orderStatusRejectedMessage": "This order was not accepted. See the note from the admin or contact support.",
+  "orderStatusOtherMessage": "The status of this order was updated.",
+  "orderNotifyTitle": "Order #{id}: {status}",
+  "@orderNotifyTitle": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "orderEmptyTitle": "No orders yet",
+  "orderEmptyMessage": "Orders you place will appear here.",
+  "orderNotFound": "We could not find that order.",
+  "orderSuccessTitle": "Order placed",
+  "orderSuccessHeading": "Thank you! Your order was placed.",
+  "orderSuccessMessage": "We received your order. You pay in cash when it is delivered.",
+  "orderSuccessNumber": "Order number",
+  "orderViewMyOrders": "View my orders",
+  "orderContinueShopping": "Continue shopping",
+  "chatTitle": "AgriBot",
+  "chatSubtitle": "FarmFriend Assistant",
+  "chatOnline": "Online",
+  "chatOffline": "Offline",
+  "chatLanguageTooltip": "AgriBot answers in {language}. Tap to change.",
+  "@chatLanguageTooltip": {
+    "placeholders": {
+      "language": {
+        "type": "String"
+      }
+    }
+  },
+  "chatDisclaimer": "AgriBot can make mistakes. Check important decisions with your agriculture officer.",
+  "chatEmptyTitle": "How can I help you today?",
+  "chatEmptyMessage": "Ask about crops, prices, seeds or plant diseases.",
+  "chatSuggestionCrop": "Which crop should I plant next month?",
+  "chatSuggestionPrice": "Price of carrot this month?",
+  "chatSuggestionSeeds": "What seeds are in the marketplace?",
+  "chatSuggestionDisease": "How to control leaf curl in chilli?",
+  "chatInputHint": "Type your question…",
+  "chatSend": "Send",
+  "chatSending": "Sending…",
+  "chatFailedRetry": "Not sent. Tap to retry",
+  "chatRateLimited": "Too many questions — please wait a minute.",
+  "chatTyping": "AgriBot is typing…",
+  "chatClear": "Clear chat",
+  "chatClearTitle": "Clear this chat?",
+  "chatClearMessage": "The messages saved on this phone will be removed.",
+  "chatClearConfirm": "Clear",
+  "chatLoadEarlier": "Load earlier messages",
+  "chatMicHold": "Hold to talk",
+  "chatMicListening": "Listening… release when you finish",
+  "chatMicUnavailable": "Voice typing is not available in this language on this phone.",
+  "chatMicFailed": "Could not start the microphone. Allow microphone access and try again.",
+  "chatSpeak": "Read aloud",
+  "chatStopSpeaking": "Stop reading",
+  "appName": "FarmFriend",
+  "navHome": "Home",
+  "navMarket": "Market",
+  "navRegister": "Register",
+  "navCommunity": "Community",
+  "navMore": "More",
+  "commonRetry": "Retry",
+  "commonOffline": "You're offline. Showing saved data.",
+  "commonRequiresInternet": "Connect to the internet to do this.",
+  "commonCancel": "Cancel",
+  "commonConfirm": "Confirm",
+  "commonSave": "Save",
+  "commonDelete": "Delete",
+  "commonEdit": "Edit",
+  "commonClose": "Close",
+  "commonDone": "Done",
+  "commonContinue": "Continue",
+  "commonBack": "Back",
+  "commonNext": "Next",
+  "commonSkip": "Skip",
+  "commonSearch": "Search",
+  "commonSeeAll": "See all",
+  "commonViewAll": "View all",
+  "commonLoading": "Loading…",
+  "commonYes": "Yes",
+  "commonNo": "No",
+  "commonOk": "OK",
+  "commonOr": "or",
+  "commonOptional": "Optional",
+  "commonSelect": "Select",
+  "commonUndo": "Undo",
+  "commonNoResults": "No results found",
+  "commonNothingHere": "Nothing here yet",
+  "commonJustNow": "Just now",
+  "commonMinutesAgo": "{count} min ago",
+  "@commonMinutesAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonHoursAgo": "{count} h ago",
+  "@commonHoursAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonDaysAgo": "{count} d ago",
+  "@commonDaysAgo": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "commonUpdatedAgo": "Updated {time}",
+  "@commonUpdatedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "commonMt": "MT",
+  "recordsCount": "{count, plural, =0{No records} =1{1 Record} other{{count} Records}}",
+  "@recordsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appBarCart": "Cart",
+  "appBarNotifications": "Notifications",
+  "appBarProfile": "Profile and settings",
+  "chatFabTooltip": "Ask AgriBot",
+  "languageSwitch": "Change language",
+  "errorTitle": "Something went wrong",
+  "errorNetwork": "No internet connection. Check your network and try again.",
+  "errorPermission": "You don't have permission to do this.",
+  "errorNotFound": "We couldn't find what you were looking for.",
+  "errorConflict": "This was already done or has changed. Refresh and try again.",
+  "errorRateLimited": "Too many requests. Please wait a minute and try again.",
+  "errorValidation": "Please check the details you entered.",
+  "errorSessionExpired": "Your session has expired. Please sign in again.",
+  "errorUnknown": "Something went wrong. Please try again.",
+  "errorPageNotFound": "This page doesn't exist.",
+  "errorGoHome": "Go to Home",
+  "authInvalidCredentials": "Invalid login credentials",
+  "authEmailNotConfirmed": "Please confirm your email first. Check your inbox for the link.",
+  "authUserExists": "This email is already registered. Sign in instead.",
+  "authWeakPassword": "Password is too weak. Use at least 8 characters with a letter and a number.",
+  "authSamePassword": "The new password must be different from the old one.",
+  "authWrongPassword": "Your current password is incorrect.",
+  "authOtpExpired": "Code expired, send a new one.",
+  "authOtpInvalid": "That code is not correct. Try again.",
+  "authRateLimited": "Too many attempts, try again later.",
+  "authGoogleFailed": "Google sign-in failed. Please try again.",
+  "validationRequired": "This field is required",
+  "validationEmail": "Enter a valid email address",
+  "validationPassword": "Use at least 8 characters with a letter and a number",
+  "validationPasswordMismatch": "Passwords do not match",
+  "validationPhone": "Enter a valid mobile number (7XXXXXXXX)",
+  "validationAmount": "Enter an amount greater than 0 with up to 2 decimals",
+  "validationTooLong": "Use at most {max} characters",
+  "@validationTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "statusPending": "Pending",
+  "statusApproved": "Approved",
+  "statusConfirmed": "Confirmed",
+  "statusShipped": "Shipped",
+  "statusDelivered": "Delivered",
+  "statusCancelled": "Cancelled",
+  "statusRejected": "Rejected",
+  "statusOpen": "Open",
+  "statusReplied": "Replied",
+  "statusClosed": "Closed",
+  "statusUnknown": "Unknown",
+  "surplusLow": "Available",
+  "surplusMedium": "Filling up",
+  "surplusHigh": "Almost full",
+  "surplusFull": "Full",
+  "quotaFilledOfLimit": "{filled} of {limit} MT registered",
+  "@quotaFilledOfLimit": {
+    "placeholders": {
+      "filled": {
+        "type": "String"
+      },
+      "limit": {
+        "type": "String"
+      }
+    }
+  },
+  "quotaRemaining": "{remaining} MT left",
+  "@quotaRemaining": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "feedbackTitle": "How are we doing?",
+  "feedbackSubtitle": "Your answers help the research team improve FarmFriend.",
+  "feedbackOverall": "Overall",
+  "feedbackEase": "Easy to use",
+  "feedbackUsefulness": "Useful for my farming",
+  "feedbackComment": "Anything else? (optional)",
+  "feedbackSubmit": "Send feedback",
+  "feedbackThanks": "Thank you for your feedback!",
+  "updateRequiredTitle": "Update required",
+  "updateRequiredBody": "A new version is needed to continue.",
+  "updateButton": "Update",
+  "updateAvailable": "Update available",
+  "maintenanceTitle": "We'll be back soon",
+  "adminBanner": "You are an administrator. Manage targets, products and news in the web admin panel.",
+  "adminBannerOpen": "Open web panel",
+  "communityWhatsOnMind": "What's on your mind?",
+  "communityPhoto": "Photo",
+  "communityActivity": "Activity",
+  "communityPost": "Post",
+  "communityLike": "Like",
+  "communityComment": "Comment",
+  "communityShare": "Share",
+  "communityMyPosts": "My Posts",
+  "communitySavedPosts": "Saved Posts",
+  "communityMyPostsCount": "My Posts ({count})",
+  "@communityMyPostsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "communitySavedPostsCount": "Saved Posts ({count})",
+  "@communitySavedPostsCount": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "communityEmptyTitle": "No posts yet",
+  "communityEmptyMessage": "Be the first to share something with other farmers.",
+  "communityEmptyAction": "Create a post",
+  "communityMyPostsEmptyTitle": "You haven't posted yet",
+  "communityMyPostsEmptyMessage": "Your posts will appear here.",
+  "communitySavedEmptyTitle": "No saved posts",
+  "communitySavedEmptyMessage": "Tap the bookmark on a post to keep it here.",
+  "communityLoadMore": "Load more",
+  "communityLoadMoreFailed": "Couldn't load more posts.",
+  "communityFarmer": "Farmer",
+  "communitySave": "Save post",
+  "communityUnsave": "Remove from saved",
+  "communityCommentsCount": "{count, plural, =0{No comments} =1{1 comment} other{{count} comments}}",
+  "@communityCommentsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "communityLikesCount": "{count, plural, =0{No likes} =1{1 like} other{{count} likes}}",
+  "@communityLikesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "communitySeeMore": "See more",
+  "communitySeeLess": "See less",
+  "communityMoreOptions": "More options",
+  "communityReport": "Report",
+  "communityReportSubject": "Report post #{id}",
+  "@communityReportSubject": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "communityDeleteTitle": "Delete this post?",
+  "communityDeleteMessage": "This can't be undone.",
+  "communityPostDeleted": "Post deleted",
+  "communityViewPhoto": "View photo",
+  "communityActivityChoose": "What are you doing?",
+  "communityActivityNone": "No activity",
+  "communityActivityPlanting": "Planting",
+  "communityActivityHarvesting": "Harvesting",
+  "communityActivitySelling": "Selling",
+  "communityActivityQuestion": "Question",
+  "postCreateTitle": "Create Post",
+  "postEditTitle": "Edit Post",
+  "postDetailTitle": "Post",
+  "postGallery": "Gallery",
+  "postCamera": "Camera",
+  "postRemovePhoto": "Remove photo",
+  "postPhotoFailed": "Couldn't open the photo. Check the app's permissions and try again.",
+  "postPublished": "Your post is live",
+  "postUpdated": "Post updated",
+  "postEditPhotoNote": "Only the text can be changed. The photo stays the same.",
+  "postNotYours": "You can only edit your own posts.",
+  "postComments": "Comments",
+  "postNoComments": "No comments yet",
+  "postNoCommentsMessage": "Be the first to comment.",
+  "postCommentHint": "Write a comment…",
+  "postCommentSend": "Send comment",
+  "postCommentSending": "Sending…",
+  "postCommentDeleteTitle": "Delete this comment?",
+  "postCommentDeleted": "Comment deleted",
+  "postCommentsLoadMore": "Load more comments",
+  "postCommentHoldToDelete": "Press and hold to delete",
+  "homePill": "Smart Farming Dashboard",
+  "homeWelcome": "Welcome back, {name}",
+  "@homeWelcome": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "homeFarmerFallback": "Farmer",
+  "homeHeroText": "Track your crop registrations, explore marketplace products, read farming updates, and get help from the AI assistant.",
+  "homeRegisterCrop": "Register Crop",
+  "homeMarketplace": "Marketplace",
+  "homeMyCrops": "My Registered Crops",
+  "homeTotalMt": "Total: {amount} MT",
+  "@homeTotalMt": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeMarketItems": "Marketplace Items",
+  "homeProductsAvailable": "Products available now",
+  "homeFarmingNews": "Farming News",
+  "homeLatestUpdates": "Latest updates and alerts",
+  "homeCropOutlook": "Crop Outlook",
+  "homeCropOutlookSubtitle": "How full the national quota is for each crop",
+  "homePercentFull": "{percent}% full",
+  "@homePercentFull": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "homeOutlookEmpty": "No active crop targets right now.",
+  "homePriceOutlook": "Price outlook",
+  "homePriceOutlookSubtitle": "Biggest wholesale price changes this month",
+  "homePricesEmpty": "Price forecasts are not available yet.",
+  "homeQuickActions": "Quick Actions",
+  "homeActionRegister": "Register Harvest",
+  "homeActionRegisterSub": "Add expected crop amount",
+  "homeActionPlan": "Plan Profit",
+  "homeActionPlanSub": "See income before you plant",
+  "homeActionBrowse": "Browse Products",
+  "homeActionBrowseSub": "Buy seeds and farm tools",
+  "homeActionAsk": "Ask Assistant",
+  "homeActionAskSub": "Get help from AgriBot",
+  "homeMyRegistrations": "My Crop Registrations",
+  "homeMtRegistered": "{amount} MT registered",
+  "@homeMtRegistered": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "homeRegisterLink": "Register",
+  "homeNoRegistrations": "No crops registered yet",
+  "homeNoRegistrationsBody": "Register your expected harvest to lock in your quota.",
+  "homeLatestNews": "Latest Farming News",
+  "homeNoNews": "No news yet.",
+  "homeUpdateBody": "A newer version of FarmFriend is available.",
+  "marketTitle": "Marketplace",
+  "marketSubtitle": "Browse agricultural tools, seeds, and equipment for your farm.",
+  "marketSearchHint": "Search products",
+  "marketSearchClear": "Clear search",
+  "marketCategoryAll": "All",
+  "marketCategorySeeds": "Seeds",
+  "marketCategoryTools": "Tools",
+  "marketEmptyTitle": "No products yet",
+  "marketEmptyMessage": "There is nothing to show here right now. Pull down to refresh.",
+  "marketEmptySearch": "Nothing matches \"{query}\". Try another word.",
+  "@marketEmptySearch": {
+    "placeholders": {
+      "query": {
+        "type": "String"
+      }
+    }
+  },
+  "marketShowAll": "Show all products",
+  "productInStock": "In Stock: {count}",
+  "@productInStock": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "productOutOfStock": "Out of stock",
+  "productAdd": "Add",
+  "productDetailTitle": "Product details",
+  "productWeight": "Weight: {weight}",
+  "@productWeight": {
+    "placeholders": {
+      "weight": {
+        "type": "String"
+      }
+    }
+  },
+  "productDescription": "Description",
+  "productReadMore": "Read more",
+  "productShowLess": "Show less",
+  "productQuantity": "Quantity",
+  "productOutOfStockNote": "This product is out of stock right now. Please check again later.",
+  "productAddToCart": "Add to cart",
+  "productBuyNow": "Buy now",
+  "moreProfileHint": "View and edit your profile",
+  "moreProfileNoName": "Your profile",
+  "moreGroupFarming": "Farming tools",
+  "moreGroupActivity": "My activity",
+  "moreGroupApp": "App",
+  "moreNews": "News",
+  "morePrices": "Crop Prices",
+  "morePlanner": "Profit Planner",
+  "moreOutlook": "Crop Outlook",
+  "moreOrders": "My Orders",
+  "moreQuotas": "My Quotas",
+  "moreSupport": "Contact Support",
+  "moreNotifications": "Notifications",
+  "newsTitle": "Latest News",
+  "newsSubtitle": "Farming news and alerts",
+  "newsDetailTitle": "News",
+  "newsReadMore": "Read More",
+  "newsFilterAll": "All",
+  "newsTypeTechnology": "Technology",
+  "newsTypeAlert": "Alert",
+  "newsTypeGeneral": "General",
+  "newsTypeDisease": "Disease",
+  "newsTypeMarket": "Market",
+  "newsEmptyTitle": "No news yet",
+  "newsEmptyMessage": "New articles and alerts will appear here.",
+  "newsLoadMore": "Load more",
+  "newsLoadMoreFailed": "Couldn't load more news.",
+  "newsByAuthor": "By {author}",
+  "@newsByAuthor": {
+    "placeholders": {
+      "author": {
+        "type": "String"
+      }
+    }
+  },
+  "newsShare": "Share",
+  "notifEmptyTitle": "No notifications yet",
+  "notifEmptyMessage": "Alerts and announcements will appear here.",
+  "notifMarkAllRead": "Mark all read",
+  "notifUnreadCount": "{count, plural, =1{1 unread} other{{count} unread}}",
+  "@notifUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifNewTitle": "New notification",
+  "notifUnread": "Unread",
+  "pricesTitle": "Crop Prices",
+  "pricesSubtitle": "Wholesale forecast · updated {date}",
+  "@pricesSubtitle": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesSubtitleNoDate": "Wholesale forecast",
+  "pricesSearchHint": "Search crops",
+  "pricesSortAz": "A–Z",
+  "pricesSortRise": "Biggest rise",
+  "pricesSortFall": "Biggest fall",
+  "pricesSortMargin": "Best margin",
+  "pricesAboveFair": "Above fair price",
+  "pricesBelowFair": "Below fair price",
+  "pricesForecastPending": "Forecast pending",
+  "pricesStale": "Forecast may be outdated",
+  "pricesFooterNote": "Forecasts are estimates from historical prices, weather and fuel costs. Actual market prices can differ.",
+  "pricesEmptyTitle": "No prices yet",
+  "pricesEmptyBody": "Price forecasts appear here after the monthly forecast has run.",
+  "pricesChangeUp": "Up {percent} from last month",
+  "@pricesChangeUp": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesChangeDown": "Down {percent} from last month",
+  "@pricesChangeDown": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesChangeFlat": "No change from last month",
+  "pricesThisMonth": "This month's wholesale price",
+  "pricesLatestActual": "Latest market price ({month})",
+  "@pricesLatestActual": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesVsLastMonth": "vs. last month",
+  "pricesRetail": "Estimated retail {price}",
+  "@pricesRetail": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesTrendTitle": "Price trend",
+  "pricesTrendSubtitle": "Past 24 months and the next 12 months",
+  "pricesLegendActual": "Actual",
+  "pricesLegendForecast": "Forecast",
+  "pricesLegendBand": "Floor to fair price",
+  "pricesToday": "Today",
+  "pricesChartEmpty": "Not enough price data to draw a chart yet.",
+  "pricesBestMonthTitle": "Best month to harvest",
+  "pricesBestMonthProfit": "Profit {profit}",
+  "@pricesBestMonthProfit": {
+    "placeholders": {
+      "profit": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesPlantToHarvest": "Plant in {plant} to harvest in {harvest}",
+  "@pricesPlantToHarvest": {
+    "placeholders": {
+      "plant": {
+        "type": "String"
+      },
+      "harvest": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesRegisterCrop": "Register this crop",
+  "pricesPlanProfit": "Plan my profit",
+  "pricesCostTitle": "Costs and fair price",
+  "pricesCostPerKg": "Cost to grow",
+  "pricesFairPrice": "Fair price (cost + 40%)",
+  "pricesProfitPerKg": "Profit per kg",
+  "pricesFloorPrice": "Minimum floor price",
+  "pricesQuotaTitle": "National quota",
+  "pricesQuotaOpen": "See crop outlook",
+  "pricesWhyTitle": "Why this price?",
+  "pricesWhyIntro": "What the forecast model used for this month:",
+  "pricesWhyRainfall": "Rainfall used",
+  "pricesWhyRainfallValue": "{mm} mm",
+  "@pricesWhyRainfallValue": {
+    "placeholders": {
+      "mm": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesWhyWeather": "Weather shock",
+  "pricesWhyWeatherApplied": "Applied",
+  "pricesWhyWeatherNone": "Not applied",
+  "pricesWhyDiesel": "Diesel price (per litre)",
+  "pricesWhyTransport": "Transport index",
+  "pricesWhyCycle": "Growth cycle",
+  "pricesWhyCycleValue": "{count, plural, =1{1 month} other{{count} months}}",
+  "@pricesWhyCycleValue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "pricesWhyModel": "Model version",
+  "pricesWhyGenerated": "Forecast made on",
+  "pricesAskBot": "Ask AgriBot",
+  "pricesAskPrompt": "What will {crop} sell for in {month}?",
+  "@pricesAskPrompt": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "pricesNotFoundTitle": "No prices for this crop",
+  "pricesNotFoundBody": "There is no price history or forecast for {crop} yet.",
+  "@pricesNotFoundBody": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerTitle": "Profit Planner",
+  "plannerSubtitle": "If I plant this much, what do I get?",
+  "plannerCrop": "Crop",
+  "plannerCropHint": "Select a crop",
+  "plannerMonth": "Harvest month",
+  "plannerBestMonthHint": "⭐ Best month to harvest",
+  "plannerLand": "Land size",
+  "plannerLandHint": "e.g. 1",
+  "plannerAcres": "Acres",
+  "plannerHectares": "Hectares",
+  "plannerLandInHa": "= {ha} hectares",
+  "@plannerLandInHa": {
+    "placeholders": {
+      "ha": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerPickCrop": "Choose a crop to start your plan.",
+  "plannerEnterLand": "Enter your land size to see the plan.",
+  "plannerResultTitle": "Your plan",
+  "plannerNoYield": "The model has no yield figure for this crop and month, so the harvest cannot be estimated.",
+  "plannerPlantIn": "Plant in",
+  "plannerExpectedHarvest": "Expected harvest",
+  "plannerCost": "Production cost",
+  "plannerIncome": "Expected income at forecast wholesale price",
+  "plannerProfit": "Expected profit",
+  "plannerLoss": "Expected loss",
+  "plannerBreakEven": "Break-even price",
+  "plannerQuotaFits": "{remaining} MT left — your {amount} MT fits ✅",
+  "@plannerQuotaFits": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerQuotaExceeds": "{remaining} MT left — your {amount} MT exceeds the remaining quota ⚠️",
+  "@plannerQuotaExceeds": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerSeeAlternatives": "See crops with room",
+  "plannerCompareTitle": "Compare crops",
+  "plannerCompareSubtitle": "Same land and harvest month, up to 3 more crops",
+  "plannerCompareAdd": "Add a crop to compare",
+  "plannerCompareRemove": "Remove {crop}",
+  "@plannerCompareRemove": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerCompareBest": "Highest profit",
+  "plannerCompareNoData": "— means there is no forecast for that crop in this month.",
+  "plannerShortHarvest": "Harvest",
+  "plannerShortCost": "Cost",
+  "plannerShortIncome": "Income",
+  "plannerShortProfit": "Profit",
+  "plannerRegisterCta": "Register {amount} MT of {crop}",
+  "@plannerRegisterCta": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "plannerDisclaimer": "These are estimates from the forecast model. Real harvests, costs and market prices can differ.",
+  "plannerNoForecastTitle": "No forecasts yet",
+  "plannerNoForecastBody": "The planner needs price forecasts. Connect to the internet and pull down to refresh.",
+  "registerTitle": "Register Harvest Quota",
+  "registerAuthBadge": "Farmer Authenticated",
+  "registerInfo": "Register your crops to secure price.",
+  "registerSelectCrop": "Select Crop",
+  "registerSelectCropHint": "Tap to choose a crop",
+  "registerCropRequired": "Please select a crop",
+  "registerSearchCrop": "Search crops",
+  "registerNoTargets": "There are no active crop targets right now. Please check again later.",
+  "registerNoActiveTarget": "There is no active national target for {crop} right now.",
+  "@registerNoActiveTarget": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "registerLimit": "National limit",
+  "registerFilled": "Registered so far",
+  "registerRemaining": "Remaining",
+  "registerFairPrice": "Fair price",
+  "registerWholesale": "Est. wholesale price",
+  "registerPlantingDate": "Planting date",
+  "registerHarvestDate": "Target harvest date",
+  "registerFarmerCount": "{count, plural, =0{No farmers registered yet} =1{1 farmer registered} other{{count} farmers registered}}",
+  "@registerFarmerCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "registerForecastTitle": "Model forecast for {month}",
+  "@registerForecastTitle": {
+    "placeholders": {
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "registerForecastWholesale": "Wholesale price",
+  "registerForecastProfit": "Profit per kg",
+  "registerSeeTrend": "See price trend",
+  "registerAmountLabel": "Expected Harvest Amount (MT)",
+  "registerAmountHint": "e.g. 100",
+  "registerAmountHelper": "Remaining capacity: {remaining} MT",
+  "@registerAmountHelper": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "registerAmountMax": "The amount cannot be more than {max} MT",
+  "@registerAmountMax": {
+    "placeholders": {
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "registerInvalidAmount": "This amount was not accepted. Check it and try again.",
+  "registerDontKnow": "Don't know the tonnage?",
+  "registerCheckAndRegister": "Check & Register",
+  "registerSuccessTitle": "Quota registered",
+  "registerSuccessBody": "Registered {amount} MT of {crop}. Your quota is locked.",
+  "@registerSuccessBody": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "registerViewQuotas": "View my quotas",
+  "registerNoTarget": "No active national target for this crop. Contact admin.",
+  "registerContactSupport": "Contact support",
+  "registerUnknownResult": "We could not confirm this registration. Check My Registered Quotas below, or update the app and try again.",
+  "registerCropChanged": "Crop changed to {crop}. Tap Check & Register to continue.",
+  "@registerCropChanged": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSurplusTitle": "Quota exceeded for {crop}",
+  "@registerSurplusTitle": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSurplusBody": "Only {remaining} MT left. Registering more would cause a surplus and lower prices.",
+  "@registerSurplusBody": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSurplusBodyFull": "This quota is full. Registering more would cause a surplus and lower prices.",
+  "registerSurplusRequested": "You asked to register {amount} MT.",
+  "@registerSurplusRequested": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "registerSurplusConfirming": "Confirming with the server…",
+  "registerSurplusAlternatives": "Alternative crops",
+  "registerSurplusNoAlternatives": "No other crop has room right now.",
+  "registerAltWhy": "{remaining} MT of room · Fair price {price}",
+  "@registerAltWhy": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "registerAltWhyNoPrice": "{remaining} MT of room",
+  "@registerAltWhyNoPrice": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "registerAltChoose": "Choose",
+  "registerRemainingCta": "Register remaining {remaining} MT",
+  "@registerRemainingCta": {
+    "placeholders": {
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "registerLandTitle": "Estimate from land size",
+  "registerLandBody": "Uses the model's yield for {crop} harvested in {month}.",
+  "@registerLandBody": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      },
+      "month": {
+        "type": "String"
+      }
+    }
+  },
+  "registerLandSize": "Land size",
+  "registerLandEstimate": "Estimated harvest",
+  "registerLandYield": "Model yield: {tonnes} MT per hectare",
+  "@registerLandYield": {
+    "placeholders": {
+      "tonnes": {
+        "type": "String"
+      }
+    }
+  },
+  "registerLandUse": "Use {amount} MT",
+  "@registerLandUse": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "registerLandUseDisabled": "Enter your land size",
+  "quotasTitle": "My Registered Quotas",
+  "quotasSubtitle": "Your locked-in harvest quotas",
+  "quotasColCrop": "Crop Name",
+  "quotasColAmount": "Amount (MT)",
+  "quotasColDate": "Date",
+  "quotasLockedNote": "These quotas are locked in. Contact admin to modify records.",
+  "quotasRequestChange": "Request a change",
+  "quotasChangeSubject": "Quota change request",
+  "quotasEmptyTitle": "No quotas registered yet",
+  "quotasEmptyBody": "Register your expected harvest to lock in a quota and a fair price.",
+  "quotasEmptyAction": "Register a crop",
+  "quotasTotal": "Total registered",
+  "quotasCropCount": "{count, plural, =1{1 crop} other{{count} crops}}",
+  "@quotasCropCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "outlookTitle": "Crop Outlook",
+  "outlookSubtitle": "National demand vs. registered supply",
+  "outlookSearchHint": "Search crops",
+  "outlookFilterAll": "All",
+  "outlookFilterAvailable": "Available",
+  "outlookFilterAlmostFull": "Almost full",
+  "outlookFilterFull": "Full",
+  "outlookSortLabel": "Sort",
+  "outlookSortMostRoom": "Most room",
+  "outlookSortHighestPrice": "Highest price",
+  "outlookSortAz": "A–Z",
+  "outlookCropCount": "{count, plural, =0{No crops} =1{1 crop} other{{count} crops}}",
+  "@outlookCropCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "outlookFairPriceLine": "Fair price: {price}",
+  "@outlookFairPriceLine": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "outlookHarvestWindow": "Harvest: {date}",
+  "@outlookHarvestWindow": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "outlookEmptyTitle": "No active crop targets",
+  "outlookEmptyBody": "National targets appear here once they are approved.",
+  "outlookNoMatch": "No crops match this search or filter",
+  "outlookNotFoundTitle": "No active target",
+  "outlookNotFoundBody": "There is no active national target for {crop} right now.",
+  "@outlookNotFoundBody": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "outlookSeeAll": "See all crops",
+  "outlookNumbers": "Quota details",
+  "outlookAllowedExtent": "Allowed extent",
+  "outlookHectares": "{amount} ha",
+  "@outlookHectares": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "outlookPriceCompare": "Fair price vs. wholesale price",
+  "outlookFullNote": "This quota is full. Choose another crop to avoid a surplus.",
+  "outlookRegisterCta": "Register this crop",
+  "outlookAskBot": "Ask AgriBot about {crop}",
+  "@outlookAskBot": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "outlookAskPrompt": "Tell me about growing {crop}: the demand, the expected price and when to plant.",
+  "@outlookAskPrompt": {
+    "placeholders": {
+      "crop": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "settingsTabAccount": "Account",
+  "settingsTabNotifications": "Notifications",
+  "settingsTabCredentials": "Credentials",
+  "settingsGeneral": "General",
+  "settingsLanguage": "Language",
+  "settingsLanguageHint": "Choose the language of the app. It changes right away.",
+  "settingsAbout": "About",
+  "settingsFeedback": "Give feedback",
+  "settingsSignOut": "Sign out",
+  "settingsSignOutConfirmTitle": "Sign out?",
+  "settingsSignOutConfirmMessage": "You will need to sign in again to use FarmFriend.",
+  "settingsName": "Name",
+  "settingsSurname": "Surname",
+  "settingsEmail": "Email",
+  "settingsEmailLocked": "Email cannot be changed here.",
+  "settingsPhone": "Telephone",
+  "settingsType": "Type",
+  "settingsTypeHint": "Select type",
+  "settingsTypeFarmer": "Farmer",
+  "settingsTypeBuyer": "Buyer",
+  "settingsTypeOfficer": "Agricultural Officer",
+  "settingsDistrict": "District",
+  "settingsDistrictHint": "Select district",
+  "settingsChangePhoto": "Change photo",
+  "settingsPhotoUpdated": "Profile photo updated.",
+  "settingsUpdateProfile": "Update Profile",
+  "settingsProfileUpdated": "Profile updated.",
+  "settingsDangerZone": "Danger zone",
+  "settingsDeleteAccount": "Delete account",
+  "settingsDeleteAccountInfo": "This permanently deletes your account with your registrations, orders and posts. It cannot be undone.",
+  "settingsDeleteConfirmTitle": "Delete your account?",
+  "settingsDeleteConfirmMessage": "This cannot be undone. Type {word} to confirm.",
+  "@settingsDeleteConfirmMessage": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNotifyMaster": "Allow notifications",
+  "settingsNotifyMasterHint": "Surplus warnings, order updates and replies from FarmFriend.",
+  "settingsNotifyDeviceTitle": "On this phone",
+  "settingsNotifyOrders": "Order updates",
+  "settingsNotifyOrdersHint": "When your order is confirmed, shipped or delivered.",
+  "settingsNotifyCommunity": "Community replies",
+  "settingsNotifyCommunityHint": "When someone comments on your post.",
+  "settingsNotifyNews": "News alerts",
+  "settingsNotifyNewsHint": "Farming news, warnings and announcements.",
+  "settingsPushTitle": "Push notifications",
+  "settingsPushHint": "Let FarmFriend alert you even when the app is closed.",
+  "settingsEnablePush": "Enable push notifications",
+  "settingsPushEnabled": "Push notifications are on.",
+  "settingsPushDenied": "Notifications are blocked. Allow them in your phone settings.",
+  "settingsChangePassword": "Change password",
+  "settingsCurrentPassword": "Current password",
+  "settingsNewPassword": "New password",
+  "settingsConfirmPassword": "Confirm new password",
+  "settingsUpdatePassword": "Update password",
+  "settingsPasswordUpdated": "Password updated.",
+  "settingsGoogleAccount": "You signed in with Google",
+  "settingsGoogleAccountHint": "Set a password if you also want to sign in with your email.",
+  "settingsSetPassword": "Set a password",
+  "settingsPasswordSet": "Password saved. You can now sign in with your email and password.",
+  "settingsPhoneAccount": "Signed in with phone {phone}",
+  "@settingsPhoneAccount": {
+    "placeholders": {
+      "phone": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsAddEmailPassword": "Add email & password",
+  "settingsAddEmailHint": "Optional. Lets you sign in with an email address as well.",
+  "settingsEmailPasswordAdded": "Saved. Check your email to confirm the address.",
+  "aboutTagline": "Plan before you plant.",
+  "aboutVersion": "Version {version}",
+  "@aboutVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutWebPortal": "Open web portal",
+  "aboutPrivacy": "Privacy policy",
+  "aboutTerms": "Terms of use",
+  "aboutLicences": "Open-source licences",
+  "aboutCreditsTitle": "Credits",
+  "aboutCredits": "Built by the Horizon Campus research team for the farmers of Sri Lanka.",
+  "aboutLinkFailed": "Could not open the link.",
+  "supportTitle": "Contact Support",
+  "supportNewTitle": "Send New Message",
+  "supportNewSubtitle": "Admin will review your message and reply if needed.",
+  "supportSubject": "Subject",
+  "supportSubjectHint": "What is this about?",
+  "supportDescription": "Description",
+  "supportDescriptionHint": "Describe your problem or question",
+  "supportSend": "Send Message",
+  "supportSent": "Message sent. Admin will reply if needed.",
+  "supportMineTitle": "My Sent Messages",
+  "supportEmpty": "No messages sent yet.",
+  "supportAdminReplied": "Admin replied",
+  "supportNewReply": "New reply",
+  "supportDetailTitle": "Message details",
+  "supportYourMessage": "Your message",
+  "supportAdminReply": "Admin reply",
+  "supportSentOn": "Sent {date}",
+  "@supportSentOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "supportRepliedOn": "Replied {date}",
+  "@supportRepliedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "supportNoReplyYet": "No reply yet. Admin will review your message and reply if needed.",
+  "supportReplyNotifTitle": "Admin replied to your message",
+  "weatherTitle": "Weather",
+  "weatherTemp": "{value}°C",
+  "@weatherTemp": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherCardUnavailable": "Weather unavailable",
+  "weatherHumidity": "Humidity",
+  "weatherWind": "Wind",
+  "weatherWindValue": "{value} km/h",
+  "@weatherWindValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherRainChance": "Rain chance",
+  "weatherAdviceTitle": "Field work advice",
+  "weatherAdviceAvoidSpraying": "Avoid spraying today",
+  "weatherAdviceAvoidSprayingDetail": "Rain is likely today. Pesticide and fertiliser can wash away before they work.",
+  "weatherAdviceIrrigate": "Irrigate early morning or evening",
+  "weatherAdviceIrrigateDetail": "It is very hot today. Water your crops when it is cooler so less water is lost.",
+  "weatherAdviceGood": "Good day for field work",
+  "weatherAdviceGoodDetail": "No heavy rain or extreme heat is expected today.",
+  "weatherHourlyTitle": "Rain chance — next 24 hours",
+  "weatherHourlyEmpty": "Hourly rain data is not available right now.",
+  "weatherHourlyTooltip": "{time} · {percent}",
+  "@weatherHourlyTooltip": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherDailyTitle": "7-day forecast",
+  "weatherDailyEmpty": "The 7-day forecast is not available right now.",
+  "weatherToday": "Today",
+  "weatherHighLow": "{high}° / {low}°",
+  "@weatherHighLow": {
+    "placeholders": {
+      "high": {
+        "type": "String"
+      },
+      "low": {
+        "type": "String"
+      }
+    }
+  },
+  "weatherLocationHint": "Weather is shown for the district in your profile.",
+  "weatherChangeDistrict": "Change district",
+  "weatherSource": "Weather data by Open-Meteo.com",
+  "weatherCondClear": "Clear sky",
+  "weatherCondPartlyCloudy": "Partly cloudy",
+  "weatherCondCloudy": "Cloudy",
+  "weatherCondFog": "Fog",
+  "weatherCondDrizzle": "Light rain",
+  "weatherCondRain": "Rain",
+  "weatherCondShowers": "Rain showers",
+  "weatherCondSnow": "Snow",
+  "weatherCondThunderstorm": "Thunderstorm",
+  "weatherCondUnknown": "Weather"
+}

@@ -1,0 +1,10 @@
+{
+  "APP_ENV": "dev",
+  "SUPABASE_URL": "https://<project-ref>.supabase.co",
+  "SUPABASE_PUBLISHABLE_KEY": "sb_publishable_xxx",
+  "GOOGLE_WEB_CLIENT_ID": "xxxx.apps.googleusercontent.com",
+  "GOOGLE_IOS_CLIENT_ID": "yyyy.apps.googleusercontent.com",
+  "WEATHER_PROVIDER": "open_meteo",
+  "WEB_APP_URL": "https://fyp-blue-beta.vercel.app",
+  "SENTRY_DSN": ""
+}
